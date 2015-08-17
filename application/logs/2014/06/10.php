@@ -1,0 +1,17 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2014-06-10 03:05:13 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: img/glyphicons-halflings-white.png ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:04 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: css/body-bg.png ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:41 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: js/jquery.autocomplete.js ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:41 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: css/jquery.autocomplete.css ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:41 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: js/bootstrap.datepicker.js ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:43 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: js/bootstrap.datepicker.js ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:43 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: img/glyphicons-halflings.png ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:45 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: img/glyphicons-halflings-white.png ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:57 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: js/jquery.autocomplete.js ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:57 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: css/jquery.autocomplete.css ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:58 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: js/bootstrap.datepicker.js ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:59 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: css/jquery.autocomplete.css ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:59 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: img/glyphicons-halflings.png ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 03:14:59 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: js/bootstrap.datepicker.js ~ SYSPATH\classes\kohana\request.php [ 674 ]
+2014-06-10 17:04:38 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: css/body-bg.png ~ SYSPATH\classes\kohana\request.php [ 674 ]
