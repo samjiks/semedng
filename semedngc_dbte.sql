@@ -1,6 +1,6 @@
 -- MySQL dump 10.14  Distrib 5.5.44-MariaDB, for Linux (x86_64)
 --
--- Host: localhost    Database: semedngc_dbte
+-- Host: localhost    Database: semedngc_dbte  User: semedngc_ussr    password: zG;cF304Cv92 
 -- ------------------------------------------------------
 -- Server version	5.5.44-MariaDB-log
 
