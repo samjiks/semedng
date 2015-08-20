@@ -8,19 +8,29 @@ class Model_UserMD extends Model_CModel
 		$users=DB::query(Database::SELECT,$sql)->execute($this->db_link)->as_array();
 		return $users;
 	}
-	
+
 	public function SelectById($id)
 	{
 		$sql="SELECT * FROM `users` WHERE id='$id'";
 		$user=DB::query(Database::SELECT,$sql)->execute($this->db_link)->as_array();
 		if(count($user)>0)return $user[0];else return null;
 	}
-	
+
 	public function SelectByUsername($username)
-	{
+	{  
+	
+
 		$sql="SELECT * FROM `users` WHERE username='$username'";
 		$user=DB::query(Database::SELECT,$sql)->execute($this->db_link)->as_array();
-		if(count($user)>0)return $user[0];else return null;
+		echo $sql;
+		if ( count( $user ) > 0 ) {
+		echo "FOUND";
+			return $user[0];
+	}
+		else { 
+			return null;
+		}
+	exit;
 	}
 
 	public function SelectByPaging($start,$end)

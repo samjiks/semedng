@@ -15,6 +15,10 @@ class Controller_Login extends Controller_CController
 	}
 	public function action_index()
 	{
+
+//          $dbh = new PDO("mysql:dbname=semedngc_dbte, host=localhost, port=8889, 'root', 'root')
+//	    var_dump($dbh);
+
 		$view=View::factory("login");
 		$view->username="";
 		$view->password="";
@@ -24,16 +28,15 @@ class Controller_Login extends Controller_CController
 		  $redirect=$this->session->get('redirect',"index");
 		  if($redirect=="/login")
 			  $redirect="index";
-			  
+
 		  if(Auth::instance()->logged_in()):
 			  $this->request->redirect($redirect);
 		  else:
 			  if(isset($_POST["login"])):
-			  	
 				  $user=Model::factory('usermd')->SelectByUsername($_POST['username']);
 				  if($user['status']=="disabled")
 				  	throw new Exception('');
-					
+
 				  $post=$_POST;
 				  $username=$_POST['username'];
 				  $password=$_POST['password'];

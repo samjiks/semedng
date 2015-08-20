@@ -8,8 +8,8 @@ return array
 		'connection' => array(
 			'hostname'   => 'localhost',
 			'database'   => 'semedngc_dbte',
-			'username'   => 'semedngc_ussr',
-			'password'   => 'zG;cF3O4Cv92',
+			'username'   => 'root',
+			'password'   => 'root',
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',
